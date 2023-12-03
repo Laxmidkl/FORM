@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(252, 236, 236);
+}
+
+.lo {
+    width: 60%;
+    height: 430px;
+    /* border: 1px solid black; */
+    margin: 70px auto;
+    font-family: sans-serif;
+    border-radius: 20px;
+    display: flex;
+  
+    
+}
+
+ .form {
+    background-color: rgba(255, 255, 255, 0.891);
+    width: 50%;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+
+
+}
+
+h1 {
+    padding-top: 20px;
+}
+
+.icon {
+
+    padding-top: 20px;
+}
+
+.p {
+    height: 0px;
+    padding-top: 25px;
+    color: rgb(108, 105, 105);
+    font-size: 13px;
+}
+
+p {
+    color: rgb(108, 105, 105);
+    font-size: 13px;
+}
+
+
+
+#email,
+#password {
+    padding: 10px;
+    width: 250px;
+    color: black;
+    background-color: rgb(232, 231, 231);
+    border: none;
+    margin: 10px;
+}
+
+
+
+
+
+
+ button {
+    background-color: rgb(251, 61, 61);
+    border: none;
+    width: 135px;
+    height: 40px;
+    color: white;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.right {
+    width: 50%;
+    background-color: rgb(254, 87, 87);
+    display: inline-block;
+
+    height: 430px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.h {
+    position: relative;
+    top: 90px;
+    left: 40px;
+    text-align: center;
+    color: white;
+    width: 260px;
+}  
